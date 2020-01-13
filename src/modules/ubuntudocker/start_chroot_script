@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# <Script Name>
+# <Description what this module does>
+# Written by <Author>
+# GPL V3
+########
+
+
+# Source error handling, leave this in place
+set -x
+set -e
+
+source /common.sh
+install_cleanup_trap
+
+unpack /filesystem/home/pi /home/pi pi
+unpack /filesystem/home/root /root root
+unpack /filesystem/boot /boot
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+add-apt-repository "deb [arch=arm64] https://download.docker.com/linux/ubuntu disco stable"
+apt-get update
+apt-get install -y docker-ce
+
+
+# Unpack root at the end, so files are modified before
+unpack /filesystem/root /
