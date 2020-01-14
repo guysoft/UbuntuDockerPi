@@ -17,6 +17,7 @@ How to use it?
 #. Configure your WiFi by editing ``ubuntudocker-wpa-supplicant.txt`` at the root of the flashed card when using it like a flash drive
 #. Boot the Pi from the SD card
 #. Hostname is ``ubuntudocker`` (not ``raspberrypi`` as usual)
+#. Username is ``ubuntu`` initial password ``ubuntu``. You will be prompted to change it after first login.
 
 
 Requirements
