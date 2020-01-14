@@ -6,9 +6,9 @@ An out of the box `Raspberry Pi <http://www.raspberrypi.org/>`_ Ubuntu distro wi
 Where to get it?
 ----------------
 
-Official mirror is `here <http://unofficialpi.org/Distros/UbuntuDocker>`_
+Official mirror is `here <http://unofficialpi.org/Distros/UbuntuDockerPi>`_
 
-Nightly builds are available `here <http://unofficialpi.org/Distros/UbuntuDocker/nightly/>`_ (currently built on demand)
+Nightly builds are available `here <http://unofficialpi.org/Distros/UbuntuDockerPi/nightly/>`_ (currently built on demand)
 
 How to use it?
 --------------
