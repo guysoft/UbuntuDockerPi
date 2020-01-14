@@ -6,9 +6,9 @@ An out of the box `Raspberry Pi <http://www.raspberrypi.org/>`_ Ubuntu distro wi
 Where to get it?
 ----------------
 
-Official mirror is `here <http://unofficialpi.org/Distros/UbuntuDocker>`_
+Official mirror is `here <http://unofficialpi.org/Distros/UbuntuDockerPi>`_
 
-Nightly builds are available `here <http://unofficialpi.org/Distros/UbuntuDocker/nightly/>`_ (currently built on demand)
+Nightly builds are available `here <http://unofficialpi.org/Distros/UbuntuDockerPi/nightly/>`_ (currently built on demand)
 
 How to use it?
 --------------
@@ -17,6 +17,7 @@ How to use it?
 #. Configure your WiFi by editing ``ubuntudocker-wpa-supplicant.txt`` at the root of the flashed card when using it like a flash drive
 #. Boot the Pi from the SD card
 #. Hostname is ``ubuntudocker`` (not ``raspberrypi`` as usual)
+#. Username is ``ubuntu`` initial password ``ubuntu``. You will be prompted to change it after first login.
 
 
 Requirements
