@@ -1,5 +1,5 @@
-Ubuntu 64bit with Docker for Raspberrypi
-========================================
+Ubuntu 64bit with Docker for Raspberry Pi
+==========================================
 
 An out of the box `Raspberry Pi <http://www.raspberrypi.org/>`_ Ubuntu distro with a 64bit chroot with docker. 
 
