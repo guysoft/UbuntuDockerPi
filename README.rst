@@ -38,7 +38,8 @@ Requirements
 Features
 --------
 
-* Chroot with Debian Buster on 64bit aarch with all the 64bit settings enabled
+* Ubuntu 64bit (aarch64) with docker
+* Wifi file that lest you set up the Pi wifi out of the box, unlike official build that you need to plug and configfure and ethernet connection to download the wifi packages.
 * Tools to configure the network via text files /boot
 
 Developing
