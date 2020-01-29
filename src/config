@@ -2,4 +2,4 @@ export DIST_NAME=UbuntuDocker
 export DIST_VERSION=0.2.0
 export BASE_DISTRO=ubuntu
 export BASE_ARCH=aarch64
-export MODULES="base(network,disable-services(ubuntudocker))"
+export MODULES="base(network,disable-services(docker,ubuntudocker))"
