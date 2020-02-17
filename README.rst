@@ -1,7 +1,17 @@
-Ubuntu 64bit with Docker for Raspberrypi
-========================================
+Ubuntu 64bit with Docker for Raspberry Pi
+==========================================
 
 An out of the box `Raspberry Pi <http://www.raspberrypi.org/>`_ Ubuntu distro with a 64bit chroot with docker. 
+
+Donate
+------
+UbuntuDockerPi is 100% free and open source and maintained by Guy Sheffer. If its helping your life, your organisation or makes you happy, please consider making a donation. It means I can code more and worry less about my balance. Any amount counts.
+Also many thanks to people contributing code.
+
+|paypal|
+
+.. |paypal| image:: https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif
+   :target: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=26VJ9MSBH3V3W&source=url
 
 Where to get it?
 ----------------
@@ -28,7 +38,8 @@ Requirements
 Features
 --------
 
-* Chroot with Debian Buster on 64bit aarch with all the 64bit settings enabled
+* Ubuntu 64bit (aarch64) with docker
+* Wifi file that lest you set up the Pi wifi out of the box, unlike official build that you need to plug and configfure and ethernet connection to download the wifi packages.
 * Tools to configure the network via text files /boot
 
 Developing
