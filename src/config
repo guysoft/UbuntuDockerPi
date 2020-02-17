@@ -2,4 +2,6 @@ export DIST_NAME=UbuntuDocker
 export DIST_VERSION=0.1.0
 export BASE_DISTRO=ubuntu
 export BASE_ARCH=aarch64
-export MODULES="base(network,disable-services(ubuntudocker))"
+export MODULES="base(network,disable-services(ubuntudocker), usage-statistics)"
+
+export USAGE_STATISTICS_URL=https://ubuntudockerpi-tracking.gnethomelinux.com
