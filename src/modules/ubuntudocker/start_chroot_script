@@ -18,3 +18,7 @@ unpack /filesystem/boot /boot
 
 # Unpack root at the end, so files are modified before
 unpack /filesystem/root /
+
+apt-get update
+apt-get install -y avahi-daemon
+apt-get clean
