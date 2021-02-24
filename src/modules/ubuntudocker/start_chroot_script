@@ -19,6 +19,8 @@ unpack /filesystem/boot /boot
 # Unpack root at the end, so files are modified before
 unpack /filesystem/root /
 
+echo "kernel.watchdog_thresh=20" > /etc/sysctl.d/99-watchdog_thresh.conf
+
 apt-get update
 apt-get install -y avahi-daemon
 apt-get clean
