@@ -47,6 +47,21 @@ Features
 Developing
 ----------
 
+Build UbuntuDockerPi
+~~~~~~~~~~~~~~~~~~~~
+
+UbuntuDockerPi can be built using docker running either on an intel or RaspberryPi (supported ones listed).
+Build requires about 4.5 GB of free space available.
+You can build it assuming you already have docker and docker-compose installed issuing the following commands::
+
+    
+    git clone https://github.com/guysoft/UbuntuDockerPi.git
+    cd UbuntuDockerPi/src/image
+    wget -c --trust-server-names 'https://cdimage.ubuntu.com/releases/20.04.4/release/ubuntu-20.04.4-preinstalled-server-arm64+raspi.img.xz'
+    cd ..
+    sudo docker-compose up -d
+    sudo docker exec -it ubuntudockerpi-build build
+
 Requirements
 ~~~~~~~~~~~~
 
